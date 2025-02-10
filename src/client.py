@@ -21,7 +21,7 @@ class Client:
         device: torch.device,
         args: Any,                  
     ):
-        if args.method == "FedHGN":
+        if args.method == "FedHGL":
             self.model = HGNN(
                 in_ch = args.num_features,
                 n_class = args.num_classes,

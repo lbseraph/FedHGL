@@ -26,7 +26,7 @@ if __name__ == '__main__':
     parser.add_argument('--test_ratio', type=float, default=0.4)
     parser.add_argument('--val_ratio', type=float, default=0.2)
     parser.add_argument('--dname', default='cora')
-    parser.add_argument('--method', default='FedHGN')
+    parser.add_argument('--method', default='FedHGL')
     parser.add_argument('--local_step', default=3, type=int)
     # Number of runs for each split (test fix, only shuffle train/val)
     parser.add_argument('--runs', default=20, type=int)

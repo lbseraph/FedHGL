@@ -12,7 +12,7 @@ from dhg import Graph, Hypergraph
 from dhg.data import Cora, Pubmed, Citeseer, Cooking200, News20, Yelp3k, DBLP4k, IMDB4k, CoauthorshipCora, Github, Facebook
 
 simple_graph_method = ["FedGCN", "FedSage", "FedCog"]
-hypergraph_method = ["FedHGN", "HNHN", "HyperGCN"]
+hypergraph_method = ["FedHGL", "HNHN", "HyperGCN"]
 
 simple_dataset = ["cora", "pubmed", "citeseer", "github", "facebook"]
 hypergraph_dataset = ["cooking", "news", "yelp", "dblp", "imdb", "cora-ca"]
